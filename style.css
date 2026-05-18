@@ -1,0 +1,654 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.design-UI{
+    width: 1200px;
+    height: 600px;
+    background-image: url("https://i.pinimg.com/1200x/66/9d/8b/669d8b5c98236050c3444bd01bb74574.jpg");
+    background-repeat: no-repeat;
+    
+    margin: auto;
+}
+
+
+.design-UI .logo span{
+    padding: 20px;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+.design-UI .logo h6{
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+    left: 65px;
+    color: aliceblue;
+}
+
+
+.design-UI .header p{
+    color: white;
+    position: relative;
+    bottom: 55px;
+    right: -500px;
+    font-size: 20px;
+}
+
+.design-UI .header p1{
+    color: white;
+    position: relative;
+    bottom: 78px;
+    right: -650px;
+    font-size: 20px;
+}
+
+.design-UI .header p2{
+    color: white;
+    position: relative;
+    bottom: 78px;
+    right: -680px;
+    font-size: 20px;
+}
+
+.design-UI .header p3{
+    color: white;
+    position: relative;
+    bottom: 78px;
+    right: -710px;
+    font-size: 20px;
+}
+
+
+.design-UI button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(4, 88, 197);
+    color: aliceblue;
+    position: relative;
+    bottom: 110px;
+    right: -1037px;
+    transition: all 0.5s ease;
+}
+
+.design-UI button:hover{
+    background-color: rgb(255, 13, 182);
+}
+
+.design-UI .title{
+    width: 600px;
+    height: 200px;
+    padding: 40px;
+    position: relative;
+}
+
+.design-UI .title p4{
+    width: 500px;
+    font-size: 30px;
+    color: aquamarine;
+    position: absolute;
+    top: 40px;
+}
+
+.design-UI .title p5{
+    width: 500px;
+    position: absolute;
+    top: 130px;
+    color: aliceblue;
+}
+
+.design-UI .title .start{
+    width: 300px;
+    height: 40px;
+    border-radius: 0;
+    background-color: rgb(0, 134, 252);
+    position: relative;
+    top: 150px;
+    left: 10px;
+}
+
+.design-UI .title .start:hover{
+    background-color: rgb(255, 13, 182);
+}
+
+.mid{
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(208, 210, 211);
+    margin: auto;
+    position: relative;
+}
+
+
+.mid h3{
+    width: 100%;
+    position: relative;
+    bottom: -20px;
+    left: 450px;
+    color: rgba(121, 117, 117, 0.473);
+}
+
+.mid img{
+    width: 180px;
+    height: 50px;
+    position: relative;
+    top: -15px;
+    left: 100px;
+}
+
+.mid .img1{
+    width: 180px;
+    height: 120px;
+    position: relative;
+    top: 25px;
+    right: 70px;
+}
+
+.mid .img2{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    left: 510px;
+    
+}
+
+.mid .img3{
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    left: 760px;
+}
+.mid .img4{
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    left: 920px;
+}
+
+.do{
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(243, 241, 237);
+    margin: auto;
+    position: relative;
+}
+
+
+.do h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    color: rgba(121, 117, 117, 0.473);
+    font-size: 20px;
+}
+
+.do .interface{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 180px;
+    left: 150px;
+}
+
+.do h1{
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    font-size: 20px;
+    left: 130px;
+}
+
+.do p{
+    width: 290px;
+    height: 60px;
+    position: absolute;
+    top: 260px;
+    font-size: 18px;
+    left: 70px;
+}
+
+.do .web{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 150px;
+    left: 400px;
+}
+
+
+
+a{
+    position: relative;
+    top: 330px;
+    left: 170px;
+}
+
+
+.do h2{
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    font-size: 20px;
+    left: 530px;
+}
+
+.do .text{
+    width: 290px;
+    height: 60px;
+    position: absolute;
+    top: 260px;
+    font-size: 18px;
+    left: 480px;
+}
+
+.do .learn{
+    position: relative;
+    top: 330px;
+    left: 470px;
+}
+
+.do .software{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 190px;
+    left: 900px;
+}
+
+.do h3{
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    font-size: 20px;
+    left: 850px;
+}
+
+.do p1{
+    width: 320px;
+    height: 60px;
+    position: absolute;
+    top: 260px;
+    font-size: 18px;
+    left: 820px;
+}
+
+.do .more{
+    position: relative;
+    top: 330px;
+    left: 740px;
+}
+
+.work{
+    width: 1200px;
+    height: 580px;
+    background-color: rgb(4, 4, 87);
+    margin: auto;
+    position: relative;
+}
+
+.work h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    color: rgba(121, 117, 117, 0.473);
+    font-size: 20px;
+}
+
+.work h2{
+    width: 1040px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+span{
+    color: aquamarine;
+}
+
+.work .pro{
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.work .pro h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    color: rgba(24, 23, 23, 0.822);
+    font-size: 20px;
+}
+
+.work .pro h3{
+    position: absolute;
+    top: 90px;
+}
+.h{
+    font-size: 40px;
+    color: black;
+}
+
+.work .pro p{
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    position: absolute;
+    top: 140px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.contact{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 330px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.contact:hover{
+    background-color: rgb(255, 0, 255);
+}
+
+
+.work .premium{
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    position: relative;
+    top: 0;
+    left: 400px;
+}
+
+.work .premium h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    color: rgba(24, 23, 23, 0.822);
+    font-size: 20px;
+}
+
+.work .premium h3{
+    position: absolute;
+    top: 90px;
+}
+.m{
+    font-size: 40px;
+    color: black;
+}
+
+.work .premium p{
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    position: absolute;
+    top: 140px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.contact{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 330px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.contact:hover{
+    background-color: rgb(255, 0, 255);
+}
+
+
+.work .enter{
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    top: 0;
+    left: 800px;
+}
+
+.work .enter h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    color: rgba(24, 23, 23, 0.822);
+    font-size: 20px;
+}
+
+.work .enter h3{
+    position: absolute;
+    top: 90px;
+}
+.e{
+    font-size: 40px;
+    color: black;
+}
+
+.work .enter p{
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    position: absolute;
+    top: 140px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.contact{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 330px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.contact:hover{
+    background-color: rgb(255, 0, 255);
+}
+
+.team{
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    background-color: rgb(208, 210, 211);
+    position: relative;
+}
+
+.team h3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(121, 117, 117, 0.473);
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+}
+.team img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.team h2{
+    width: 100%;
+    position: absolute;
+    top: 290px;
+    left: 120px;
+}
+
+.team .img1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+
+.team h4{
+    width: 100%;
+    position: absolute;
+    top: 290px;
+    left: 540px;
+    font-size: 25px;
+}
+
+.team .img2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 900px;
+}
+
+
+.team h5 {
+    height: 100%;
+    position: absolute;
+    top: 290px;
+    left: 925px;
+    font-size: 25px;
+}
+
+.love{
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(243, 241, 237);
+    margin: auto;
+    position: relative;
+}
+
+.love .tag{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgba(121, 117, 117, 0.473);
+    position: absolute;
+    top: 15px;
+}
+
+.love img{
+    width: 60px;
+    height: 65px;
+    position: absolute;
+    top: 80px;
+    right: 560px;
+}
+
+.love h1{
+    width: 100%;
+    position: absolute;
+    top: 170px;
+    left: 320px;
+}
+
+.love .hub{
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    top: 230px;
+    right: 500px;
+}
+
+
+.footer{
+    width: 1200px;
+    height: 210px;
+    margin: auto;
+    background-color: rgb(4, 4, 87);
+    position: relative;
+}
+
+.footer .services{
+    color: aliceblue;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.client{
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.us{
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+
+.copy{
+    position: absolute;
+    top: 0;
+    left: 930px;
+}
